@@ -15,7 +15,7 @@ connectDB();
 const app = express();
 
 // List of allowed origins
-const allowedOrigins = ['http://localhost:8000', 'https://job-way.vercel.app/', 'http://localhost:5173'];
+const allowedOrigins = ['http://localhost:8000', 'https://job-way.vercel.app', 'http://localhost:5173'];
 
 // Set up CORS
 app.use(cors({
